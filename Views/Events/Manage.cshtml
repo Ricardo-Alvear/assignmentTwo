@@ -1,0 +1,25 @@
+@model List<comp2147.Models.Event>
+
+<h2>My Events</h2>
+
+<a href="/Events/Create" class="btn btn-primary mb-3">Create New Event</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Title</th>
+        <th>Start Date</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var ev in Model)
+    {
+        <tr>
+            <td>@ev.Title</td>
+            <td>@ev.StartDate.ToString("yyyy-MM-dd HH:mm")</td>
+            <td>
+                <a href="/Events/Edit/@ev.Id" class="btn btn-sm btn-warning">Edit</a>
+                <a href="/Events/Delete/@ev.Id" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

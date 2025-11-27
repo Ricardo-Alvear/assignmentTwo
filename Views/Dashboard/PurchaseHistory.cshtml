@@ -1,0 +1,35 @@
+@model List<COMP2139___assignment2.Models.Order>
+
+@{
+    ViewBag.Title = "Purchase History";
+    Layout = "_Layout";
+}
+
+<h2>Your Purchase History</h2>
+
+@if (!Model.Any())
+{
+    <p>No purchases yet.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var o in Model)
+         {
+             <tr>
+                 <td>@o.OrderItems.First().Event.Title</td>
+                 <td>@o.EventDate.ToString("MMMM dd, yyyy")</td>
+                 <td>@o.Total</td>
+             </tr>
+         }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,107 @@
+@model comp2147.ViewModels.DashboardVM
+
+@{
+    ViewBag.Title = "My Dashboard";
+    Layout = "_Layout";
+}
+
+<h2>Welcome, @(Model.User?.FullName ?? "Guest")</h2>
+
+<section id="eventSearch">
+    <form asp-controller="Dashboard" asp-action="Index" method="get">
+        <input type="text" name="searchTerm" value="@Model.SearchTerm" placeholder="Search events..." />
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+@* ---------------------- SEARCH RESULTS ---------------------- *@
+@if (!string.IsNullOrWhiteSpace(Model.SearchTerm))
+{
+    <h3>Search Results for "@Model.SearchTerm"</h3>
+
+    @if (Model.SearchResults.Any())
+    {
+        <ul>
+            @foreach (var ev in Model.SearchResults)
+            {
+                <li>
+                    <strong>@ev.Title</strong> (@ev.StartDate.ToShortDateString())
+                    <a asp-controller="Events" asp-action="Details" asp-route-id="@ev.Id">View</a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No results found.</p>
+    }
+}
+
+@* ---------------------- ALL EVENTS ---------------------- *@
+<h3>All Events</h3>
+@if (Model.AllEvents.Any())
+{
+    <ul>
+        @foreach (var ev in Model.AllEvents)
+        {
+            <li>
+                <strong>@ev.Title</strong> (@ev.StartDate.ToShortDateString())
+                <a asp-controller="Events" asp-action="Details" asp-route-id="@ev.Id">View</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No events available.</p>
+}
+
+@* ---------------------- ORGANIZER EVENTS ---------------------- *@
+@if (Model.MyEvents.Any())
+{
+    <h3>My Created Events</h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ev in Model.MyEvents)
+            {
+                <tr>
+                    <td>@ev.Title</td>
+                    <td>@ev.StartDate.ToShortDateString()</td>
+                    <td>@ev.EndDate.ToShortDateString()</td>
+                    <td>
+                        <a asp-controller="Events" asp-action="Edit" asp-route-id="@ev.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-controller="Events" asp-action="Details" asp-route-id="@ev.Id" class="btn btn-info btn-sm">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@* ---------------------- OTHER DASHBOARD SECTIONS ---------------------- *@
+<div class="row mt-4">
+    <div class="col-md-8">
+        <section id="myTickets">
+            <h3>My Tickets</h3>
+            @await Html.PartialAsync("_MyTicketsPartial", Model.MyTickets)
+        </section>
+        
+        <section id="purchaseHistory">
+            @await Html.PartialAsync("_PurchaseHistoryPartial", Model.PurchaseHistory)
+        </section>
+    </div>
+    
+    <div class="col-md-4">
+        <section id="profile">
+            @await Html.PartialAsync("_ProfilePartial", Model.User ?? new ApplicationUser { FullName = "Guest" })
+        </section>
+    </div>
+</div>

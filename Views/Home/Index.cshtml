@@ -1,0 +1,121 @@
+﻿@model comp2147.ViewModels.DashboardVM
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Welcome, Guest!</h1>
+    
+    @if (User.IsInRole("Organizer") || User.IsInRole("Admin"))
+    {
+        <a href="/Events/Create" class="btn btn-primary btn-lg mb-3">Create Event</a>
+        <a href="/Events/Manage" class="btn btn-secondary btn-lg mb-3">Manage My Events</a>
+    }
+
+    @* If there are search results, show them first *@
+    @if (Model.SearchResults.Any())
+    {
+        <section id="searchResults" class="mb-4">
+            <h3>Search Results for "@Model.SearchTerm"</h3>
+            <ul class="list-group">
+                @foreach (var ev in Model.SearchResults)
+                {
+                    <li class="list-group-item">
+                        <strong>@ev.Title</strong> - @ev.StartDate.ToShortDateString()
+                        <span class="text-muted">(@ev.TicketTypes.Sum(t => t.QuantitySold) sold)</span>
+                        <a asp-controller="Events" asp-action="Details" asp-route-id="@ev.Id" class="btn btn-sm btn-primary float-end">View</a>
+                    </li>
+                }
+            </ul>
+        </section>
+    }
+    else if (!string.IsNullOrEmpty(Model.SearchTerm))
+    {
+        <p>No results found for "@Model.SearchTerm".</p>
+    }
+
+    @* Dashboard cards *@
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Browse Events</h5>
+                    <p class="card-text flex-grow-1">
+                        View all upcoming events and buy tickets.
+                    </p>
+                    <a asp-controller="Events" asp-action="Index" class="btn btn-primary mt-auto">Go</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">My Dashboard</h5>
+                    <p class="card-text flex-grow-1">
+                        See your tickets, purchase history, profile, and events you created.
+                    </p>
+                    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-primary mt-auto">Go</a>
+                </div>
+            </div>
+        </div>
+
+        @if (User.IsInRole("Organizer") || User.IsInRole("Admin"))
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Create Event</h5>
+                        <p class="card-text flex-grow-1">
+                            Organizers and Admins can create new events here.
+                        </p>
+                        <a asp-controller="Events" asp-action="Create" class="btn btn-primary mt-auto">Go</a>
+                    </div>
+                </div>
+            </div>
+        }
+
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Admin Panel</h5>
+                        <p class="card-text flex-grow-1">
+                            Manage users, roles, and perform administrative tasks.
+                        </p>
+                        <a asp-controller="Users" asp-action="Index" class="btn btn-danger mt-auto">Go</a>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Purchase History</h5>
+                    <p class="card-text flex-grow-1">
+                        View all tickets you have purchased in the past.
+                    </p>
+                    <a asp-controller="Dashboard" asp-action="PurchaseHistory" class="btn btn-primary mt-auto">Go</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Profile</h5>
+                    <p class="card-text flex-grow-1">
+                        Edit your profile information and upload a profile picture.
+                    </p>
+                    <a asp-controller="Dashboard" asp-action="Profile" class="btn btn-primary mt-auto">Go</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

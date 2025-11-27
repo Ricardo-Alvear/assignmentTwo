@@ -1,0 +1,15 @@
+2025-11-18 20:02:26.991 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-18 20:02:27.193 -05:00 [INF] HTTP GET / responded 200 in 207.2343 ms
+2025-11-18 20:02:27.276 -05:00 [INF] HTTP GET /js/site.js responded 200 in 1.0625 ms
+2025-11-18 20:02:27.277 -05:00 [INF] HTTP GET /css/site.css responded 200 in 68.6603 ms
+2025-11-18 20:02:27.277 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 68.9093 ms
+2025-11-18 20:02:27.287 -05:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 27.4876 ms
+2025-11-18 20:02:27.288 -05:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 79.5347 ms
+2025-11-18 20:02:27.287 -05:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 22.6967 ms
+2025-11-18 20:02:27.375 -05:00 [INF] HTTP GET /favicon.ico responded 200 in 0.5456 ms
+2025-11-18 20:02:32.829 -05:00 [INF] HTTP GET / responded 200 in 9.1792 ms
+2025-11-18 20:02:32.856 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 5.8953 ms
+2025-11-18 20:02:33.392 -05:00 [INF] HTTP GET /Home/Privacy responded 200 in 8.8213 ms
+2025-11-18 20:02:33.407 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.5070 ms
+2025-11-18 20:02:34.634 -05:00 [INF] HTTP GET / responded 200 in 3.7436 ms
+2025-11-18 20:02:34.662 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.5314 ms

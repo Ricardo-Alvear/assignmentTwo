@@ -1,0 +1,51 @@
+@model IEnumerable<COMP2139___assignment2.Models.Order>
+
+<div class="mb-4">
+    <h2>Purchase History</h2>
+
+    @if (!Model.Any())
+    {
+        <p>You have not purchased any tickets yet.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Tickets Bought</th>
+                <th>Total Paid</th>
+                <th>Rating</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderItems.First().Event.Title</td>
+                    <td>@order.EventDate.ToString("MMMM dd, yyyy")</td>
+                    <td>@order.OrderItems.Sum(i => i.Quantity)</td>
+                    <td>@order.Total</td>
+                    <td>
+                        @if (order.OrderItems.First().Event.Ratings.Any(r => r.UserId == order.UserId))
+                        {
+                            var rating = order.OrderItems.First().Event.Ratings
+                                .First(r => r.UserId == order.UserId).Stars;
+
+                            @for (int i = 0; i < rating; i++)
+                            {
+                                <span class="text-warning">&#9733;</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="text-muted">N/A</span>
+                        }
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+</div>

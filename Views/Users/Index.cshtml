@@ -1,0 +1,27 @@
+@model IEnumerable<COMP2139___assignment2.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "Users";
+    Layout = "_Layout";
+}
+
+<h2>All Users</h2>
+
+<table class="tabel table-striped">
+    <thead>
+    <tr>
+        <th>Email</th>
+        <th>Full Name</th>
+        <th>Role</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Email</td>
+                <td>@u.FullName</td>
+            </tr>
+        }
+    </tbody>
+</table>

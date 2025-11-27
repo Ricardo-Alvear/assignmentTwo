@@ -1,0 +1,225 @@
+2025-11-23 16:28:10.041 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:28:10.330 -05:00 [INF] HTTP GET / responded 302 in 318.5570 ms
+2025-11-23 16:28:10.470 -05:00 [INF] HTTP GET /Account/Register responded 200 in 124.9785 ms
+2025-11-23 16:28:10.496 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 15.2241 ms
+2025-11-23 16:28:23.803 -05:00 [INF] HTTP POST /Account/Login responded 200 in 73.7918 ms
+2025-11-23 16:28:23.825 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 3.2869 ms
+2025-11-23 16:30:37.513 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:30:37.633 -05:00 [INF] HTTP GET / responded 302 in 122.8142 ms
+2025-11-23 16:30:37.818 -05:00 [INF] HTTP GET /Account/Register responded 200 in 170.3580 ms
+2025-11-23 16:30:37.934 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 6.4124 ms
+2025-11-23 16:30:44.055 -05:00 [INF] HTTP POST /Account/Login responded 200 in 82.5401 ms
+2025-11-23 16:30:44.077 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 3.3879 ms
+2025-11-23 16:34:29.086 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:34:29.138 -05:00 [INF] HTTP GET / responded 302 in 55.1031 ms
+2025-11-23 16:34:29.403 -05:00 [INF] HTTP GET /Account/Login responded 200 in 254.6380 ms
+2025-11-23 16:34:29.424 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 4.0089 ms
+2025-11-23 16:34:36.009 -05:00 [INF] HTTP POST /Account/Login responded 200 in 709.1744 ms
+2025-11-23 16:34:36.041 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.4001 ms
+2025-11-23 16:36:34.005 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:36:34.849 -05:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-23 16:36:35.041 -05:00 [ERR] HTTP GET / responded 500 in 1038.9616 ms
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+   at CallSite.Target(Closure, CallSite, Object, String, String)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at AspNetCoreGeneratedDocument.Views_Dashboard_Index.ExecuteAsync() in /Users/ricardo_alvear/Desktop/COMP2139 - assignment2/COMP2139 - assignment2/Views/Dashboard/Index.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-23 16:36:35.055 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+   at CallSite.Target(Closure, CallSite, Object, String, String)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at AspNetCoreGeneratedDocument.Views_Dashboard_Index.ExecuteAsync() in /Users/ricardo_alvear/Desktop/COMP2139 - assignment2/COMP2139 - assignment2/Views/Dashboard/Index.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 16:36:59.553 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:37:00.231 -05:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-23 16:37:00.507 -05:00 [INF] HTTP GET / responded 200 in 956.0689 ms
+2025-11-23 16:37:00.531 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 4.2932 ms
+2025-11-23 16:37:08.938 -05:00 [INF] HTTP GET /Dashboard/SearchEvents responded 404 in 6.0875 ms
+2025-11-23 16:40:29.368 -05:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "DateOfBirth", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfilePictureUrl", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);
+2025-11-23 16:40:29.414 -05:00 [ERR] An exception occurred in the database while saving changes for context type 'COMP2139___assignment2.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-23 16:41:39.800 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:41:39.961 -05:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-23 16:41:40.175 -05:00 [INF] HTTP GET / responded 200 in 352.7988 ms
+2025-11-23 16:41:40.181 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 22.7707 ms
+2025-11-23 16:41:44.904 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 404 in 4.4630 ms
+2025-11-23 16:41:47.284 -05:00 [INF] HTTP GET /Dashboard/SearchEvents responded 404 in 0.3073 ms
+2025-11-23 16:41:49.646 -05:00 [INF] HTTP GET /Dashboard/SearchEvents responded 404 in 0.5380 ms
+2025-11-23 16:41:55.036 -05:00 [INF] HTTP GET /Home responded 302 in 18.0460 ms
+2025-11-23 16:41:55.077 -05:00 [INF] HTTP GET /Account/Register responded 200 in 37.2875 ms
+2025-11-23 16:41:55.103 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 1.9475 ms
+2025-11-23 16:41:56.505 -05:00 [INF] HTTP GET /Home/Privacy responded 404 in 1.0467 ms
+2025-11-23 16:42:04.688 -05:00 [INF] HTTP POST /Account/Login responded 200 in 88.3465 ms
+2025-11-23 16:42:04.715 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.3183 ms
+2025-11-23 16:43:22.747 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 16:43:22.872 -05:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-11-23 16:43:23.204 -05:00 [INF] HTTP GET / responded 200 in 456.6558 ms
+2025-11-23 16:43:23.218 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 3.8448 ms
+2025-11-23 16:43:31.347 -05:00 [INF] HTTP GET /Dashboard/SearchEvents responded 404 in 3.2709 ms
+2025-11-23 16:43:41.233 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 67.9810 ms
+2025-11-23 16:43:41.251 -05:00 [INF] HTTP GET / responded 200 in 11.8707 ms
+2025-11-23 16:43:41.272 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 1.0415 ms
+2025-11-23 16:43:43.043 -05:00 [INF] HTTP GET /Home/Privacy responded 404 in 0.2377 ms
+2025-11-23 16:43:45.091 -05:00 [INF] HTTP GET /Home responded 302 in 14.6128 ms
+2025-11-23 16:43:45.129 -05:00 [INF] HTTP GET /Account/Register responded 200 in 33.2738 ms
+2025-11-23 16:43:45.149 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.4888 ms
+2025-11-23 18:11:03.942 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 18:11:04.095 -05:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-11-23 18:11:04.488 -05:00 [INF] HTTP GET / responded 200 in 543.2218 ms
+2025-11-23 18:11:04.492 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 3.2942 ms
+2025-11-23 18:11:04.512 -05:00 [INF] HTTP GET /css/site.css responded 200 in 19.4306 ms
+2025-11-23 18:11:04.518 -05:00 [INF] HTTP GET /js/site.js responded 200 in 0.3368 ms
+2025-11-23 18:11:04.520 -05:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 17.8626 ms
+2025-11-23 18:11:04.520 -05:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 18.3180 ms
+2025-11-23 18:11:04.521 -05:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 31.9047 ms
+2025-11-23 18:11:04.553 -05:00 [INF] HTTP GET /favicon.ico responded 200 in 0.9119 ms
+2025-11-23 18:11:07.897 -05:00 [INF] HTTP GET /Dashboard/SearchEvents responded 404 in 4.3564 ms
+2025-11-23 18:11:11.581 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 66.7927 ms
+2025-11-23 18:11:11.598 -05:00 [INF] HTTP GET / responded 200 in 13.2266 ms
+2025-11-23 18:11:11.622 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 1.5055 ms
+2025-11-23 18:13:26.135 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 18:13:26.245 -05:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-11-23 18:13:26.570 -05:00 [INF] HTTP GET / responded 200 in 433.6913 ms
+2025-11-23 18:13:26.581 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 2.6264 ms
+2025-11-23 18:13:29.727 -05:00 [INF] HTTP GET /Dashboard/SearchEvents responded 404 in 3.1993 ms
+2025-11-23 18:13:37.391 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 60.9692 ms
+2025-11-23 18:13:37.409 -05:00 [INF] HTTP GET / responded 200 in 13.6356 ms
+2025-11-23 18:13:37.429 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 2.2858 ms
+2025-11-23 18:13:38.400 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 6.1729 ms
+2025-11-23 18:13:38.424 -05:00 [INF] HTTP GET / responded 200 in 19.6522 ms
+2025-11-23 18:13:38.439 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.2918 ms
+2025-11-23 18:13:50.524 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 105.8305 ms
+2025-11-23 18:13:50.540 -05:00 [INF] HTTP GET / responded 200 in 7.1246 ms
+2025-11-23 18:13:50.560 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.3612 ms
+2025-11-23 18:13:50.581 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 200 in 21.3392 ms
+2025-11-23 18:13:52.295 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 3.0200 ms
+2025-11-23 18:13:52.316 -05:00 [INF] HTTP GET / responded 200 in 17.8178 ms
+2025-11-23 18:13:52.338 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.3112 ms
+2025-11-23 18:13:52.340 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 304 in 2.0705 ms
+2025-11-23 18:13:54.956 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 2.5559 ms
+2025-11-23 18:13:54.972 -05:00 [INF] HTTP GET / responded 200 in 12.4657 ms
+2025-11-23 18:13:54.988 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 304 in 0.4962 ms
+2025-11-23 18:13:54.988 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.6089 ms
+2025-11-23 18:13:59.549 -05:00 [INF] HTTP POST /Dashboard/UploadProfilePicture responded 302 in 2.0807 ms
+2025-11-23 18:13:59.560 -05:00 [INF] HTTP GET / responded 200 in 5.9117 ms
+2025-11-23 18:13:59.579 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.2661 ms
+2025-11-23 18:13:59.579 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 304 in 0.3493 ms
+2025-11-23 18:14:01.733 -05:00 [INF] HTTP GET /Home responded 302 in 9.3490 ms
+2025-11-23 18:14:01.772 -05:00 [INF] HTTP GET /Account/Register responded 200 in 34.5750 ms
+2025-11-23 18:14:01.800 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.5640 ms
+2025-11-23 18:14:03.081 -05:00 [INF] HTTP GET /Home/Privacy responded 404 in 0.6100 ms
+2025-11-23 18:15:14.969 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 18:15:15.086 -05:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-11-23 18:15:15.447 -05:00 [INF] HTTP GET / responded 200 in 476.8452 ms
+2025-11-23 18:15:15.467 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 8.0310 ms
+2025-11-23 18:15:15.475 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 304 in 1.4768 ms
+2025-11-23 18:15:25.750 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 18:15:25.903 -05:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-11-23 18:15:26.274 -05:00 [INF] HTTP GET / responded 200 in 514.6476 ms
+2025-11-23 18:15:26.286 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 9.5397 ms
+2025-11-23 18:15:26.298 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 304 in 3.3938 ms
+2025-11-23 18:15:40.270 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-23 18:15:40.386 -05:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-11-23 18:15:40.721 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 5.0230 ms
+2025-11-23 18:15:40.721 -05:00 [INF] HTTP GET / responded 200 in 449.1374 ms
+2025-11-23 18:15:40.721 -05:00 [INF] HTTP GET /uploads/d291b66e-c4a9-42a1-9a94-f6860c24d839.jpeg responded 304 in 2.6922 ms

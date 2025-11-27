@@ -1,0 +1,14 @@
+@{
+    ViewBag.Title = "Registration Successful";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <h2>Thank you for registering!</h2>
+    <p>
+        We have sent a confirmation email to your inbox. Please click the link in the email to activate your account.
+    </p>
+    <p>
+        After confirming your email, you can <a asp-controller="Account" asp-action="Login">log in here</a>.
+    </p>
+</div>

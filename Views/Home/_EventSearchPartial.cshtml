@@ -1,0 +1,17 @@
+@model IEnumerable<comp2147.Models.Event>
+
+<div class="row">
+    @if (!Model.Any())
+    {
+        <p class="text-muted">No events found.</p>
+    }
+    else
+    {
+        @foreach (var e in Model)
+        {
+            <div class="col-md-4 mb-4">
+                @await Html.PartialAsync("_EventPartial", e)
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,30 @@
+@model IEnumerable<COMP2139___assignment2.Models.OrderItem>
+
+
+<div>
+    @if (!Model.Any())
+    {
+        <p>No upcoming tickets.</p>
+    }
+    else
+    {
+        @foreach (var ticket in Model)
+        {
+            <idv class="card mb-3 shadow-sm">
+                <div class="card-body">
+                    <h5 class="cart-title">@ticket.Event.Title</h5>
+                    <p class="text-muted">
+                        @ticket.Event.StartDate.ToString("MMMM dd, yyyy - h:mm tt")
+                    </p>
+                    
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="/Tickets/QR/@ticket.Id" alt="QR Code" width="120" height="120" class="border rounded"/>
+                        <div>
+                            <a href="/Tickets/Pdf/@ticket.Id" class="btn btn-primary">Download PDF Ticket</a>
+                        </div>
+                    </div>
+                </div>
+            </idv>
+        }
+    }
+</div>

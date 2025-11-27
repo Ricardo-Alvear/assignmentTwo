@@ -1,0 +1,39 @@
+@model IEnumerable<comp2147.Models.Event>
+
+<div class="mb-4">
+    <h2>My Events</h2>
+    
+    @if (!Model.Any())
+    {
+        <p>You have not created any events yet.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Total Revenue</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e.Title</td>
+                    <td>@e.StartDate.ToString("MMMM dd, yyyy")</td>
+                    <td>@e.EndDate.ToString("MMMM dd, yyyy")</td>
+                    <td>@e.TicketTypes.Sum(t => t.Price * t.QuantitySold)</td>
+                    <td>
+                        <a asp-controller="Events" asp-action="Edit" asp-route-id="@e.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-controller="Events" asp-action="Details" asp-route-id="@e.Id" class="btn btn-sm btn-warning">View</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+</div>

@@ -1,0 +1,36 @@
+@model COMP2139___assignment2.Models.ApplicationUser
+
+<div class="mb-4">
+    <h3>Profile</h3>
+    
+    @if (Model != null)
+    {
+        <form asp-action="UploadProfilePicture" enctype="multipart/form-data" method="post">
+            <div class="mb-3">
+                <label>Full Name</label>
+                <input asp-for="FullName" class="form-control"></input>
+            </div>
+
+            <div class="mb-3">
+                <label>Phone Number</label>
+                <input asp-for="PhoneNumber" class="form-control"></input>
+            </div>
+
+            <div class="mb-3">
+                <label>Profile Picture</label>
+                <input type="file" name="file" class="form-control">
+                @if (!string.IsNullOrEmpty(Model.ProfilePictureUrl))
+                {
+                    <img src="@Model.ProfilePictureUrl" alt="Profile Picture" width="100" class="mt-2"/>
+                }
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update Profile</button>
+
+        </form>
+    }
+    else
+    {
+        <p>No user profile available.</p>
+    }
+</div>

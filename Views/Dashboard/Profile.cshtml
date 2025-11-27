@@ -1,0 +1,21 @@
+@model COMP2139___assignment2.Models.ApplicationUser
+@{
+    ViewBag.Title = "My Profile";
+    Layout = "_Layout";
+}
+
+<h2>My Profile</h2>
+<div class="card p-3" style="max-width: 500px">
+    <p><strong>Name:</strong> @Model.FullName</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+    
+    @if (!string.IsNullOrEmpty(Model.ProfilePictureUrl))
+    {
+        <img alt="Profile Picture URL" src="@Model.ProfilePictureUrl" width="180" class="border rounded" />
+    }
+    <form method="post" enctype="multipart/form-data" asp-action="UploadProfilePicture">
+        <input type="file" name="file" class="form-control mt-2" />
+        <button class="btn btn-primary mt-2">Upload</button>
+    </form>
+</div>
