@@ -688,3 +688,27 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2025-11-26 13:15:16.436 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.3518 ms
 2025-11-26 13:15:16.655 -05:00 [INF] HTTP GET /Dashboard responded 200 in 8.7322 ms
 2025-11-26 13:15:16.657 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.3704 ms
+2025-11-26 20:44:49.410 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-11-26 20:44:49.528 -05:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-26 20:44:49.733 -05:00 [INF] HTTP GET / responded 200 in 321.8914 ms
+2025-11-26 20:44:49.736 -05:00 [INF] HTTP GET /js/site.js responded 304 in 2.5041 ms
+2025-11-26 20:44:49.736 -05:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 2.2787 ms
+2025-11-26 20:44:49.737 -05:00 [INF] HTTP GET /css/site.css responded 304 in 3.6171 ms
+2025-11-26 20:44:49.738 -05:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 4.4218 ms
+2025-11-26 20:44:49.738 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 5.0551 ms
+2025-11-26 20:44:49.746 -05:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 0.1837 ms
+2025-11-26 20:44:51.387 -05:00 [INF] HTTP GET /Events responded 200 in 107.5412 ms
+2025-11-26 20:44:51.402 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.2884 ms
+2025-11-26 20:44:52.788 -05:00 [INF] HTTP GET /Events/Create responded 200 in 46.2902 ms
+2025-11-26 20:44:52.794 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.2588 ms
+2025-11-26 20:45:15.160 -05:00 [INF] HTTP POST /Events/Create responded 200 in 23.0478 ms
+2025-11-26 20:45:15.168 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.1448 ms
+2025-11-26 20:45:16.526 -05:00 [INF] HTTP GET / responded 200 in 55.5130 ms
+2025-11-26 20:45:16.532 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.3200 ms
+2025-11-26 20:45:17.540 -05:00 [INF] HTTP GET /Dashboard responded 200 in 113.1016 ms
+2025-11-26 20:45:17.548 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.2215 ms
+2025-11-26 20:45:20.340 -05:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-26 20:45:20.442 -05:00 [INF] HTTP GET /Dashboard responded 200 in 125.1636 ms
+2025-11-26 20:45:20.451 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.1748 ms
+2025-11-26 20:45:24.919 -05:00 [INF] HTTP GET /Dashboard responded 200 in 89.5378 ms
+2025-11-26 20:45:24.928 -05:00 [INF] HTTP GET /COMP2139___assignment2.styles.css responded 404 in 0.1688 ms

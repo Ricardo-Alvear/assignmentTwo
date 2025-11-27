@@ -1,10 +1,11 @@
 using COMP2139___assignment2.Models;
-using COMP2139___assignment2.ViewModels.Account;
 using COMP2139___assignment2.Services;
+using COMP2139___assignment2.ViewModels.Account;
+using comp2147.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace COMP2139___assignment2.Controllers;
+namespace comp2147.Controllers;
 
 public class AccountController : Controller
 {

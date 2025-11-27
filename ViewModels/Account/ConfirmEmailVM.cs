@@ -1,4 +1,4 @@
-namespace COMP2139___assignment2.ViewModels.Account;
+namespace comp2147.ViewModels.Account;
 
 public class ConfirmEmailVM
 {

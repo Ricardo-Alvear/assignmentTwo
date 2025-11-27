@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d/gLV9CEU6g=",
+  "dgSpecHash": "47MrDjfInMQ=",
   "success": true,
   "projectFilePath": "/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/comp2147.csproj",
   "expectedPackageFiles": [
@@ -31,20 +31,25 @@
     "/Users/ricardo_alvear/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.11/microsoft.entityframeworkcore.tools.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.11/microsoft.extensions.caching.abstractions.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.caching.memory/9.0.11/microsoft.extensions.caching.memory.9.0.11.nupkg.sha512",
-    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.11/microsoft.extensions.configuration.abstractions.9.0.11.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.configuration/10.0.0/microsoft.extensions.configuration.10.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0/microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.configuration.fileextensions/10.0.0/microsoft.extensions.configuration.fileextensions.10.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.configuration.json/10.0.0/microsoft.extensions.configuration.json.10.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.11/microsoft.extensions.dependencyinjection.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.11/microsoft.extensions.dependencyinjection.abstractions.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.dependencymodel/9.0.11/microsoft.extensions.dependencymodel.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
-    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.0/microsoft.extensions.fileproviders.abstractions.10.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.fileproviders.physical/10.0.0/microsoft.extensions.fileproviders.physical.10.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.filesystemglobbing/10.0.0/microsoft.extensions.filesystemglobbing.10.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.identity.core/9.0.11/microsoft.extensions.identity.core.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.identity.stores/9.0.11/microsoft.extensions.identity.stores.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.logging/9.0.11/microsoft.extensions.logging.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.11/microsoft.extensions.logging.abstractions.9.0.11.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.options/9.0.11/microsoft.extensions.options.9.0.11.nupkg.sha512",
-    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.primitives/9.0.11/microsoft.extensions.primitives.9.0.11.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/microsoft.extensions.primitives/10.0.0/microsoft.extensions.primitives.10.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/mimekit/4.14.0/mimekit.4.14.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
@@ -71,12 +76,26 @@
     "/Users/ricardo_alvear/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
-    "/Users/ricardo_alvear/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/system.io.pipelines/10.0.0/system.io.pipelines.10.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/system.security.cryptography.pkcs/8.0.1/system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
-    "/Users/ricardo_alvear/.nuget/packages/system.text.json/9.0.11/system.text.json.9.0.11.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/system.text.encodings.web/10.0.0/system.text.encodings.web.10.0.0.nupkg.sha512",
+    "/Users/ricardo_alvear/.nuget/packages/system.text.json/10.0.0/system.text.json.10.0.0.nupkg.sha512",
     "/Users/ricardo_alvear/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "comp2147 depends on Microsoft.Extensions.Configuration.Json (>= 9.0.305) but Microsoft.Extensions.Configuration.Json 9.0.305 was not found. Microsoft.Extensions.Configuration.Json 10.0.0 was resolved instead.",
+      "projectPath": "/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/comp2147.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/comp2147.csproj",
+      "libraryId": "Microsoft.Extensions.Configuration.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

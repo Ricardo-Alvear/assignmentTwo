@@ -668,11 +668,8 @@
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.CSharp.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Binder.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.CommandLine.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.FileExtensions.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Ini.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Json.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.KeyPerFile.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.UserSecrets.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Xml.dll
@@ -681,11 +678,8 @@
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Diagnostics.HealthChecks.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Features.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Composite.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Physical.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/Microsoft.Extensions.Http.dll
@@ -760,7 +754,6 @@
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.FileSystem.Watcher.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.IsolatedStorage.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.MemoryMappedFiles.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.Pipelines.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.Pipes.AccessControl.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.Pipes.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.IO.UnmanagedMemoryStream.dll
@@ -839,7 +832,6 @@
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Text.Encoding.CodePages.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Text.Encoding.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Text.Encoding.Extensions.dll
-/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Text.Encodings.Web.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Text.RegularExpressions.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Threading.Channels.dll
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/refs/System.Threading.dll
@@ -1106,3 +1098,14 @@
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/obj/Debug/net9.0/comp2147.pdb
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/obj/Debug/net9.0/comp2147.genruntimeconfig.cache
 /Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/obj/Debug/net9.0/ref/comp2147.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/obj/Debug/net9.0/comp2147.sourcelink.json
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/System.IO.Pipelines.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/System.Text.Encodings.Web.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/Users/ricardo_alvear/Desktop/comp2139/comp2147/comp2147/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll

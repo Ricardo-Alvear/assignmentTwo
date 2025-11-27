@@ -1,4 +1,4 @@
-namespace COMP2139___assignment2.Services;
+namespace comp2147.Services;
 
 public interface IEmailSender
 {

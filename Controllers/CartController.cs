@@ -1,11 +1,10 @@
-using COMP2139___assignment2.Data;
 using COMP2139___assignment2.ViewModels.Cart;
 using comp2147.data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace COMP2139___assignment2.Controllers;
+namespace comp2147.Controllers;
 
 [Authorize]
 public class CartController : Controller
